@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div>
+      <div id="main-container">
+        <!-- Navbar -->
+        <nav class="navbar">
+          <!-- Navbar part one -->
+          <div class="navOne">
+            <!-- Filter Button -->
+            <div class="iconFilterDiv">
+              <img class="iconFilterImg" src="/Images/filter.svg" alt="" />
+            </div>
+            <!-- Searchbar -->
+            <div>
+              <input class="searchBar" type="text" placeholder="Search..." />
+            </div>
+            <button class="blueButton">
+              <img src="/Images/plus.svg" alt="" />
+              <span class="buttonFont"> Add customer</span>
+            </button>
+          </div>
+          <div class="navTwo">
+            <div id="navItemOne"><input type="checkbox" /></div>
+            <div id="navItemTwo">
+              <span>#</span>
+              <div class="arrowButtons">
+                <img
+                  style="height: 5px,width: 5px;"
+                  src="/Images//Shape/TriangleTwo.svg"
+                  alt=""
+                />
+                <img src="/Images/Shape/TriangleOne.svg" alt="" />
+              </div>
+
+              <div></div>
+            </div>
+            <div id="navItemThree">
+              <span> NAME </span>
+              <div class="arrowButtons">
+                <img
+                  style="height: 5px,width: 5px;"
+                  src="/Images//Shape/TriangleTwo.svg"
+                  alt=""
+                />
+                <img src="/Images/Shape/TriangleOne.svg" alt="" />
+              </div>
+            </div>
+            <div id="navItemFour">DESCRIPTION</div>
+            <div id="navItemFive">
+              STATUS
+              <div class="arrowButtons">
+                <img
+                  style="height: 5px,width: 5px;"
+                  src="/Images//Shape/TriangleTwo.svg"
+                  alt=""
+                />
+                <img src="/Images/Shape/TriangleOne.svg" alt="" />
+              </div>
+            </div>
+            <div class="navItems">RATE</div>
+            <div class="navItems">BALANCE</div>
+            <div class="navItems">DEPOSIT</div>
+          </div>
+        </nav>
+        <!-- MAIN content -->
+        <div class="appBody">
+          <!-- List items container -->
+          <div id="list-items"></div>
+        </div>
+        <div id="footer">
+          <span>Rows per page:</span>
+          <select id="select">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

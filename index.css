@@ -1,0 +1,441 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* main container */
+#main-container {
+  display: flex;
+  width: 1020px;
+
+  background: rgba(255, 255, 255, 1);
+  /* Data Table */
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  /* White */
+  background: #ffffff;
+  /* light/shadow-s */
+  box-shadow: 0px 0px 0px 1px rgba(152, 161, 178, 0.1),
+    0px 1px 4px rgba(69, 75, 87, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  /* Inside auto layout */
+}
+.appBody {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  width: 1020px;
+  height: 104px;
+  gap: 0px;
+  opacity: 0px;
+  flex-direction: column;
+}
+
+/* Navbar part one */
+.navOne {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+/* Navbar Part one items */
+.iconFilterDiv {
+  cursor: pointer;
+  width: Hug (40px) px;
+  height: Hug (32px) px;
+  margin-left: 20px;
+  padding: 8px 12px 8px 12px;
+  gap: 8px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 4);
+  box-shadow: 0px 2px 5px 0px rgba(89, 96, 120, 0.1);
+  box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.16);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.iconFilterImg {
+  width: 16px;
+  height: 16px;
+  padding: 1px 2px 1px 2px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* Searchbar */
+.searchBar {
+  width: Fixed (320px) px;
+  height: Hug (32px) px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 5);
+  padding: 6px 12px 6px 12px;
+  gap: 8px;
+  border-radius: 6px;
+  opacity: 0px;
+  box-shadow: 0px 0px 0px 1px rgba(104, 113, 130, 0.16);
+  margin-left: 15px;
+  box-shadow: 0px 0px 0px 1px rgba(152, 161, 178, 0.1),
+    0px 1px 4px rgba(69, 75, 87, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+/* Button */
+.blueButton {
+  /* button */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  position: absolute;
+  width: 146px;
+  height: 32px;
+  right: 356px;
+  top: 12px;
+  color: #ffffff;
+  /* Blue/500 */
+  border: 1px solid #2264e6;
+  background: #2264e6;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.buttonFont {
+  //styleName: Button/default;
+  width: 98px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+/* Navbar part two */
+.navTwo {
+  display: flex;
+  flex: 1;
+
+  align-items: center;
+  justify-content: space-between;
+  width: Fixed (1, 020px) px;
+  height: Hug (40px) px;
+  top: 64px;
+  padding: 0px 50px 0px 10px;
+  gap: 20px;
+  opacity: 0px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  font-family: Inter;
+}
+
+/* NavItems */
+#navItemOne {
+  width: 16px;
+  height: 16px;
+  color: rgba(70, 79, 96, 1);
+
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  gap: 0px;
+
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 5px 0px rgba(89, 96, 120, 0.1);
+  justify-content: space-between;
+  box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.16);
+
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+#navItemTwo {
+  display: flex;
+  align-items: center;
+  width: 36px px;
+  height: Hug (40px) px;
+  padding: 12px 0px 12px 0px;
+  gap: 2px;
+  opacity: 0px;
+}
+#navItemThree {
+  width: 238 px;
+  height: Hug (40px) px;
+  padding: 12px 0px 12px 0px;
+  gap: 2px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+}
+
+#navItemFour {
+  width: 70 px;
+  height: Hug (40px) px;
+  padding: 12px 0px 12px 0px;
+  gap: 2px;
+  opacity: 0px;
+}
+#navItemFive {
+  width: 100 px;
+  height: Hug (40px) px;
+  padding: 12px 0px 12px 0px;
+  gap: 2px;
+  display: flex;
+  align-items: center;
+  opacity: 0px;
+}
+.navItems {
+  width: 100px;
+  height: Hug (40px) px;
+  padding: 12px 0px 12px 0px;
+  /* gap: 2px; */
+  opacity: 0px;
+}
+
+.arrowButtons {
+  width: 12px;
+  height: 10px;
+  gap: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+#list-items {
+  display: flex;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#list-items > div {
+  width: 1020px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin: 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#list-items > div > input {
+  margin-left: 16px;
+}
+
+#list-items > div > p {
+  margin-left: 55px;
+  //styleName: Subtitle/s2;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+#list-items > div > .name {
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+}
+#list-items > div > .name > .UpperText {
+  color: rgba(46, 59, 82, 1);
+  width: 150px;
+  height: 17px;
+  top: 12px;
+  left: 80px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+#list-items > div > .name > .LowerText {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: rgba(96, 111, 137, 1);
+  width: 100px;
+  height: 15px;
+  top: 29px;
+  left: 80px;
+  gap: 0px;
+  opacity: 0px;
+}
+#list-items > div > .description {
+  width: 134px;
+  height: 40px;
+  gap: 0px;
+
+  margin-left: -47px;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.status {
+  text-align: center;
+  border-radius: 11px;
+  margin-left: 37px;
+  font-family: Inter;
+  font-size: 10px;
+  padding-top: 4px;
+  font-weight: 500;
+  line-height: 12.1px;
+  letter-spacing: 0.05em;
+  text-align: center;
+
+  /* background: rgba(233, 237, 245, 1); */
+}
+.open {
+  padding: 8px 14px 0px 7px;
+  border: 1px solid rgba(186, 83, 0, 1);
+  text-align: center;
+  color: rgba(186, 83, 0, 1);
+  width: 35px;
+  height: 20px;
+}
+.due {
+  width: Hug (44px) px;
+  height: Hug (20px) px;
+  top: 12px;
+  left: 540px;
+  padding: 1px 10px 1px 10px;
+  gap: 6px;
+  opacity: 0px;
+  color: rgba(209, 41, 83, 1);
+}
+.active {
+  padding: 8px 20px 0px 6px;
+  gap: 6px;
+  width: 35px;
+  height: 20px;
+  left: 32px;
+
+  color: white;
+  background: rgba(10, 101, 255, 1);
+}
+.inactive {
+  padding: 8px 20px 0px 6px;
+  gap: 6px;
+  width: 35px;
+  height: 20px;
+  left: 32px;
+
+  color: rgba(96, 111, 137, 1);
+
+  border: 1px solid rgba(10, 101, 255, 1);
+}
+.paid {
+  padding: 8px 20px 0px 6px;
+  gap: 6px;
+  width: 35px;
+  height: 20px;
+  left: 32px;
+
+  color: white;
+  background: rgba(0, 130, 0, 1);
+}
+.ordered {
+  padding: 8px 20px 0px 6px;
+  gap: 6px;
+  width: 35px;
+  height: 20px;
+  left: 32px;
+  color: white;
+  background: rgba(0, 130, 0, 1);
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  color: rgba(70, 79, 96, 1);
+  //styleName: Body/number;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: right;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  color: rgba(70, 79, 96, 1);
+
+  margin-left: 143px;
+  //styleName: Body/number;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: right;
+}
+.deposit {
+  display: flex;
+  flex-direction: column;
+  color: rgba(70, 79, 96, 1);
+  margin-left: 127px;
+  //styleName: Body/number;
+  font-family: Inter;
+
+  font-weight: 400;
+  line-height: 20px;
+  text-align: right;
+}
+.bigText {
+  font-size: 14px;
+
+  opacity: 0px;
+}
+/* .subText {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  text-align: right;
+  width: 100px;
+  height: 10px;
+  top: 34px;
+  left: 630px;
+  gap: 0px;
+  opacity: 0px;
+} */
+#footer {
+  font-family: Inter;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(104, 113, 130, 1);
+  //styleName: Caption;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  text-align: right;
+
+  height: 18px;
+  gap: 0px;
+  opacity: 0px;
+}
